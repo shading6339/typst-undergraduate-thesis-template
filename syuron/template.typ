@@ -154,7 +154,7 @@
   place(dx: row-x + 3mm, dy: m1-y - 13pt - 1mm)[
     #text(font: serif, size: 13pt, tracking: 1em)[大学院]
   ]
-  place(dx: row-x + 10.8cm * 0.65, dy: m1-y - 13pt - 1mm)[ // 少し右(0.65)と推測
+  place(dx: row-x + 10.8cm * 0.65, dy: m1-y - 13pt - 1mm)[ // 専攻名位置を右寄せするためのオフセット係数 (0.65)
     #place(center)[
       #text(font: serif, size: 13pt)[ロボティクス＆デザイン工学研究科]
     ]
